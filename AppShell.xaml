@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SimpleSample.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SimpleSample"
+    Shell.FlyoutBehavior="Disabled"
+    Title="SimpleSample">
+
+
+    <TabBar>
+
+        <ShellContent Title="List 1"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+
+        <ShellContent Title="List 2"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+        <ShellContent Title="List3"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+
+        <ShellContent Title="List 4"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+        <ShellContent Title="List 5"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+
+        <ShellContent Title="List 6"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+        <ShellContent Title="List 7"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+
+        <ShellContent Title="List 8"
+                      ContentTemplate="{DataTemplate local:NewPage1}" />
+    </TabBar>
+
+</Shell>
